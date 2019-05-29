@@ -1,0 +1,3 @@
+@function rem($font-size, $font-size-default: 16px){
+    @return $font-size/$font-size-default#{rem};
+}

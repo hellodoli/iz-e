@@ -1,10 +1,6 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
+// Fonts
+// ===============================
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
 
 html,
 body {
@@ -13,6 +9,20 @@ body {
 
 html {
     font-size: 100%; // 1rem = 16px
+}
+
+body {
+    font-family: $font-nunitosans;
+	font-size: $default-font-size;
+	font-weight: 400;
+    color: $color-gray-dark;
+    background: $color-white;
+	line-height: $default-line-height;
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 h1,
@@ -31,6 +41,7 @@ audio {
 }
 
 .mark-text {
+    color: $color-secondary;
     text-decoration: underline;
 }
 
@@ -41,7 +52,7 @@ audio {
 
 .not-correct-msg,
 .congrat-msg {
-    font-size: 48px;
-    color: #fb843c;
+    font-size: rem(40px);
+    color: $color-tertiary;
     text-align: center;
 }

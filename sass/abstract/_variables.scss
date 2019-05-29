@@ -1,5 +1,23 @@
 // colors
+$color-primary: #33abe5;
+$color-primary-dark: #309ace;
 $color-secondary: #87c52e;
-$color-black: #000;
+$color-tertiary: #fb843c;
 
-$font-quest: 28px;
+$color-gray-light-1: #f7f7f7;
+$color-gray-light-2: #eee;
+
+$color-gray-dark: #777;
+$color-gray-dark-2: #999;
+$color-gray-dark-3: #333;
+$color-gray-dark-4: #000;
+
+$color-white: #fff;
+
+// font
+$default-font-size: 1rem;
+$font-quest: rem(28px);
+$default-line-height: 1.5;
+
+// font family
+$font-nunitosans: 'Nunito Sans', sans-serif;
