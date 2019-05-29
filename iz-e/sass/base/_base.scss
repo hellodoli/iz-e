@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 100%; // 1rem = 16px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+audio {
+    display: none !important;
+}
+
+.mark-text {
+    text-decoration: underline;
+}
+
+.x-msg {
+    font-size: $font-quest;
+    color: red;
+}
+
+.not-correct-msg,
+.congrat-msg {
+    font-size: 48px;
+    color: #fb843c;
+    text-align: center;
+}

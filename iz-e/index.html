@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>English Game</title>
+</head>
+
+<body>
+
+    <div class="en-box">
+        <div class="en-box__header">
+            <div class="d-flex justify-content-center">
+                <div class="en-box__header-life"></div>
+            </div>
+            <div class="en-box__header-check"></div>
+            <div class="en-box__header-level">
+                <h2 class="en-box__header-level-show text-center">Question 1</h2>
+            </div>
+        </div>
+        <div class="en-box__body">
+            <div class="en-box__ex">
+                <div class="en-box__ex-top">
+                    <div class="en-box__ex-audio">
+                        <div class="en-box__ex-audio-btn" id="btnEnboxAudio"><img class="img-fluid"
+                                src="https://giasutoeic.com/static/ToeicTests/images/play_audio_icon.png"
+                                alt="btn-audio-img" /></div>
+                        <p class="en-box__ex-audio-text small text-center">Click to play Audio</p>
+                    </div>
+                    <div class="en-box__ex-quest">
+                        <div class="en-box__ex-quest-text"></div>
+                    </div>
+                </div>
+                <div class="en-box__ex-bottom">
+                    <div class="en-box__ex-form">
+                        <div class="form-group">
+                            <div class="en-box__ex-form-alert" style="display: none;"><img
+                                    class="en-box__ex-form-alert-symbol"
+                                    src="https://giasutoeic.com/static/ToeicTests/images/wrong_answer_icon.png"
+                                    alt="x-img" /><span class="en-box__ex-form-alert-text x-msg"></span></div>
+                            <input class="en-box__ex-form-input form-control" id="inputEnboxAns"
+                                placeholder="Your answer ..." />
+                        </div>
+                        <div class="form-group text-center">
+                            <div class="en-box__ex-form-btn">
+                                <button class="btn btn-primary" id="btnEnboxAns" type="button">Submit Answer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

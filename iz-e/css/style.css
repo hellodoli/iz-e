@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html,
+body {
+  height: 100%; }
+
+html {
+  font-size: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+audio {
+  display: none !important; }
+
+.mark-text {
+  text-decoration: underline; }
+
+.x-msg {
+  font-size: 28px;
+  color: red; }
+
+.not-correct-msg,
+.congrat-msg {
+  font-size: 48px;
+  color: #fb843c;
+  text-align: center; }
+
+.en-box__header > div + div {
+  margin-top: 20px; }
+
+.en-box__ex-top {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.en-box__ex-bottom {
+  margin-top: -4px; }
+
+.en-box__ex-audio {
+  margin-right: -4px; }
+
+.en-box__ex-bottom, .en-box__ex-audio, .en-box__ex-quest {
+  padding: 25px;
+  border: 4px solid #333; }
+
+.en-box__ex-audio {
+  flex: 0 0 30%;
+  max-width: 30%; }
+  .en-box__ex-audio-btn {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    transition: opacity .15s;
+    border-radius: 50%; }
+    .en-box__ex-audio-btn.is-playing {
+      opacity: 1 !important;
+      border: 4px solid #87c52e; }
+    .en-box__ex-audio-btn:hover {
+      opacity: .7; }
+
+.en-box__ex-quest {
+  flex: 0 0 70%;
+  max-width: 70%;
+  font-size: 28px;
+  color: #000; }
+  .en-box__ex-quest-mean {
+    font-style: italic; }
+
+.en-box__ex-form-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px; }
+  .en-box__ex-form-alert-text {
+    margin-left: 10px; }
+
+.en-box__ex-form-input {
+  margin: 0 auto;
+  max-width: 300px; }
+
+.en-box__ex-form-btn {
+  border-radius: 30px; }

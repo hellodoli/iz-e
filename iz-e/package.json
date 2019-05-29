@@ -1,0 +1,14 @@
+{
+  "name": "iz-e",
+  "version": "1.0.0",
+  "description": "English Game with Javascript",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Phat",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
